@@ -11,6 +11,10 @@ A web application for visualizing sorting algorithms. This project is built usin
 - View performance metrics: number of comparisons, swaps, and time taken.
 - Connect with the creator on LinkedIn :).
 
+## Screenshot
+
+![Sorting Visualizer](assets/screenshot.png)
+
 ## Project Structure
 
 sorting_visualizer/
@@ -21,6 +25,8 @@ sorting_visualizer/
 │ │ └── sortingv.js
 ├── templates/
 │ └── index.html
+├── assets/
+│ └── screenshot.png
 ├── app.py
 └── requirements.txt
 ```
