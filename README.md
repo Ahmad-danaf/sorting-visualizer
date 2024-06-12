@@ -1,4 +1,3 @@
-```markdown
 # Sorting Visualizer
 
 A web application for visualizing sorting algorithms. This project is built using Flask for the backend and plain HTML, CSS, and JavaScript for the frontend.
@@ -16,7 +15,7 @@ A web application for visualizing sorting algorithms. This project is built usin
 ![Sorting Visualizer](assets/screenshot.png)
 
 ## Project Structure
-
+```
 sorting_visualizer/
 ├── static/
 │ ├── css/
