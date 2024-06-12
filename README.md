@@ -13,15 +13,14 @@ A web application for visualizing sorting algorithms. This project is built usin
 
 ## Project Structure
 
-```
 sorting_visualizer/
 ├── static/
-│   ├── css/
-│   │   └── sortingv.css
-│   ├── js/
-│   │   └── sortingv.js
+│ ├── css/
+│ │ └── sortingv.css
+│ ├── js/
+│ │ └── sortingv.js
 ├── templates/
-│   └── index.html
+│ └── index.html
 ├── app.py
 └── requirements.txt
 ```
@@ -70,4 +69,4 @@ Ahmad Danaf - [Connect with me on LinkedIn](https://www.linkedin.com/in/ahmad-da
 ## License
 
 This project is licensed under the MIT License.
-```
+
