@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: #3498db;
+}
+
+.btn-container {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+.performance-display {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#btn-new-array {
+  background-color: chocolate;
+}
+
+#speedControl {
+  margin: 10px;
+}
+
+.linkedin-container {
+  margin-top: 20px;
+}
+
+.linkedin-container a {
+  color: #0077b5;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.linkedin-container a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/sortingv.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div id="bigODisplay"></div>
+    <div id="performanceDisplay"></div>
+    <div class="array-container" id="arrayContainer"></div>
+    <div class="btn-container">
+      <button id="btn-new-array">Generate New Array</button>
+      <button id="btn-bubble-sort">Bubble Sort</button>
+      <button id="btn-selection-sort">Selection Sort</button>
+      <button id="btn-merge-sort">Merge Sort</button>
+      <button id="btn-quick-sort">Quick Sort</button>
+      <button id="btn-insertion-sort">Insertion Sort</button>
+      <button id="btn-heap-sort">Heap Sort</button>
+      <button id="btn-pause">Pause</button>
+      <button id="btn-resume">Resume</button>
+      <input type="range" id="speedControl" min="1" max="100" value="50">
+    </div>
+    <div class="linkedin-container">
+      <a href="https://www.linkedin.com/in/ahmad-danaf-b37261215/" target="_blank">Connect with me on LinkedIn</a>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/sortingv.js') }}"></script>
+</body>
+</html>
