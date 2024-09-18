@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-A web application for visualizing sorting algorithms. This project is built using Flask for the backend and plain HTML, CSS, and JavaScript for the frontend.
+A web application for visualizing sorting algorithms. This project is built using plain HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -8,34 +8,35 @@ A web application for visualizing sorting algorithms. This project is built usin
 - Adjust the speed of the visualization.
 - Pause and resume the sorting process.
 - View performance metrics: number of comparisons, swaps, and time taken.
-- Connect with the creator on LinkedIn :).
+- Connect with the creator on LinkedIn! :)
 
 ## Screenshot
 
 ![Sorting Visualizer](assets/screenshot.png)
 
 ## Project Structure
+
 ```
 sorting_visualizer/
-├── static/
-│ ├── css/
-│ │ └── sortingv.css
-│ ├── js/
-│ │ └── sortingv.js
-├── templates/
-│ └── index.html
 ├── assets/
-│ └── screenshot.png
-├── app.py
-└── requirements.txt
+│   └── screenshot.png
+├── static/
+│   ├── css/
+│   │   └── sortingv.css
+│   └── js/
+│       └── sortingv.js
+└── index.html
 ```
+
+## Branches
+
+- **flask-feature**: This branch contains the Flask backend implementation. You can switch to this branch to work with Flask.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.x
-- Flask
+You only need a modern web browser to run this project.
 
 ### Installation
 
@@ -46,26 +47,7 @@ sorting_visualizer/
    cd sorting_visualizer
    ```
 
-2. Create a virtual environment and activate it:
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the application:
-
-   ```bash
-   python app.py
-   ```
-
-5. Open your web browser and navigate to `http://127.0.0.1:5000`.
+2. Open `index.html` in your web browser.
 
 ## Author
 
@@ -74,4 +56,3 @@ Ahmad Danaf - [Connect with me on LinkedIn](https://www.linkedin.com/in/ahmad-da
 ## License
 
 This project is licensed under the MIT License.
-
