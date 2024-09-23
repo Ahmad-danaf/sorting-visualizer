@@ -1,4 +1,5 @@
-# Sorting Visualizer
+# [Sorting Visualizer](https://ahmad-danaf.github.io/sorting-visualizer/)
+# [Link](https://ahmad-danaf.github.io/sorting-visualizer/)
 
 A web application for visualizing sorting algorithms. This project is built using plain HTML, CSS, and JavaScript.
 
